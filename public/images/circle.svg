@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px">
+    <defs>
+        <circle id="def-circle" style="fill:yellow;" cx="0" cy="0" r="45" />
+    </defs>
+
+    <use xlink:href="#def-circle" transform="translate(50 50)">
+        <animateTransform attributeName="transform" 
+        type="scale"
+        additive="sum"    
+        from="0 0"
+        to="1 1"      
+        beg="0s"
+        dur="2s"
+        repeatCount="indefinite" />
+    </use>   
+</svg>
